@@ -24,7 +24,6 @@ int get_precision(const char *format, int *i, va_list list)
 		{
 			precision *= 10;
 			precision += format[curr_i] - '0';
-			break;
 		}
 		else if (format[curr_i] == '*')
 		{
